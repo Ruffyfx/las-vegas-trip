@@ -12,6 +12,12 @@ h1{
 
 }
 
+h2{
+	font-weight: 800;
+	font-size: 50px;
+
+}
+
 h3{
 	font-weight: bold;
 	font-size: 30px;
@@ -22,6 +28,12 @@ h4{
 	font-weight: bold;
 	font-size: 20px;
 
+}
+
+p{
+	font-weight: bold;
+	font-size: 20px;
+	margin: 30px 0;
 }
 
 .wrapper{
@@ -75,3 +87,72 @@ button.cta.alt{
 	color: #111111;
 	box-shadow: 0 0 0 10pt rgba(0,0,0,.15);
 }
+
+nav{
+	height: 100px;
+	background-color: white;
+	box-shadow: 0 5px 8px rgba(0,0,0,.2);
+	position: sticky;
+	top: 0;
+}
+
+nav .logo{
+	display: block;
+	width: 100px;
+	height: 68px;
+	position: absolute; top: 50%; left: 56px;
+	margin-top: -20px;
+	margin-left: -36px;
+	background: url(../img/logo222.png) no-repeat 0 0;
+	background-size: 100%;
+	overflow: hidden;
+	text-indent: -999px;
+}
+
+nav ul{
+	padding: 0;
+	margin: 0 20px 0 0;
+}
+
+nav ul li{
+	margin: 0;
+	padding: 0;
+	display: block;
+	float: right;
+}
+
+nav ul li a{
+	display: block;
+	height: 100%;
+	box-sizing: border-box;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #111111;
+	text-decoration: none;
+	padding: 35px 10px;
+	line-height: 30px;
+}
+
+.caesars-palace{
+	text-align: center;
+}
+
+.caesars-palace p{
+	margin: 18px 0 35px;
+}
+
+.caesars-palace h2{
+	margin: 50px 0 0;
+}
+
+.highlight{
+	background-color: #f4dfdc;
+	color: #3f51b5;
+	padding: 5px 10px;
+	line-height: 50px;
+	display: inline;
+	font-weight: 800;
+}
+
+
