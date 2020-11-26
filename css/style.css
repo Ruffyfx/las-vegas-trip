@@ -1,9 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fjalla+One&family=Nerko+One&family=Oswald:wght@700&display=swap');
 
 body, html{
 	font-family: 'Poppins', sans-serif;
 	padding: 0;
 	margin: 0;
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: -522px;
+  right: 20px;
+  background-color: rgba(0,0,0,.5);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  font-family: 'Fjalla One', sans-serif;
+  color: white;
+  text-shadow: 0 0 5px black;
 }
 
 h1{
@@ -125,7 +146,7 @@ nav ul li a{
 	display: block;
 	height: 100%;
 	box-sizing: border-box;
-	font-size: 30px;
+	font-size: 25px;
 	text-transform: uppercase;
 	font-weight: bold;
 	color: #111111;
