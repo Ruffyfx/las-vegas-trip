@@ -28,7 +28,7 @@
 	<nav>
 		<a href="#" class="logo">vegas</a>
 		<ul>
-			<li><a href="#">Sign Up</a></li>
+			<li><a href="javascript:()" onclick="showPopup();">Sign Up</a></li>
 			<li><a href="#caesars-palace">Caesars Palace</a></li>
 			<li><a href="#bellagio">Bellagio</a></li>
 			<li><a href="#paris-las-vegas">Paris Las Vegas</a></li>
@@ -38,7 +38,7 @@
 		<div class="wrapper">
 			<h2>Hotel 1. Caesars Palace</h2>
 			<p>Das <span class="highlight">Caesars Palace</span> ist ein Hotel in Paradise im Großraum Las Vegas im US-Bundesstaat Nevada.</p><p>Es ist im Stil eines antiken römischen Palastes errichtet;<p> der Name leitet sich von Gaius Iulius Caesar her, dem Herrscher des antiken Rom, und soll dessen Pracht widerspiegeln.</p>
-			<button class="cta">Sign Me Up!</button>
+			<button class="cta" onclick="showPopup();">Sign Me Up!</button>
 	</div>
 	<div id="bellagio"></div> 
 	<div class="sep"></div>
@@ -51,17 +51,17 @@
 	<div class="paris-las-vegas" id="paris-las-vegas">
 		<h3>Hotel 3. Paris Las Vegas</h3>
 		<p>Das <span class="highlight">Paris Las Vegas</span> ist ein Hotelkomplex und Casino am Las Vegas Strip in Las Vegas (Nevada).</p><p> Es steht im Eigentum von Caesars Entertainment. <p>Das Wahrzeichen des Hotels ist ein Nachbau des Eiffelturms.</p>
-	<img src="" alt="">
 	<footer>
 		<div class="wrapper">
 		<p>This Site has been created by Ruffy.</a> &copy; Ruffy</p>
 		</div>
 	</footer>
-	<div class="popup">
+	<div class="popup" id="popup">
 		<div class="blanket"></div>
 		<div class="content">
 			<h2>Fill in your details</h2>
 			<form action="">
+				<div class="row">
 				<div class="item">
 					<label>Your First Name</label>
 					<input type="text" placeholder="Ruffy" value="Ruffy">
@@ -70,6 +70,8 @@
 					<label>Your Last Name</label>
 					<input type="text" placeholder="Wolf">
 				</div>
+				</div>
+					<div class="row">
 					<div class="item">
 					<label>Email adress</label>
 					<input type="text" placeholder="Email@gmail.com">
@@ -78,11 +80,14 @@
 					<label>Nickname</label>
 					<input type="text" placeholder="RuffyWolf">
 				</div>
+				</div>
 				<button class="cta">I want In!</button>
 			</form>
-			<button class="close">Close</button>
+			<button class="close" onclick="hidePopup();">Close</button>
 		</div>
 	</div>
 	
+      <script src="script.js" type="text/javascript"></script>
+
 </body>
 </html>
