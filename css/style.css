@@ -100,6 +100,15 @@ button.cta{
  	padding: 20px 30px;
  	border-radius: 10px;
  	text-decoration: none;
+ 	border: : none;
+ 	outline: none;
+ 	cursor: pointer;
+}
+
+a.cta:active,
+button.cta:active{
+	opacity: .7;
+
 }
 
 a.cta.alt,
@@ -167,6 +176,30 @@ nav ul li a{
 	margin: 50px 0 0;
 }
 
+.bellagio{
+	text-align: center;
+}
+
+.bellagio p{
+	margin: 18px 0 35px;
+}
+
+.bellagio h2{
+	margin: 50px 0 0;
+}
+
+.paris-las-vegas{
+	text-align: center;
+}
+
+.paris-las-vegas p{
+	margin: 18px 0 35px;
+}
+
+.paris-las-vegas h2{
+	margin: 50px 0 0;
+}
+
 .highlight{
 	background-color: #f4dfdc;
 	color: #3f51b5;
@@ -176,4 +209,25 @@ nav ul li a{
 	font-weight: 800;
 }
 
+.sep{
+	width: 470px;
+	height: 10px;
+	background-color: #111111;
+	margin: 57px auto;
+}
 
+footer{
+	text-align: center;
+	color: rgba(0,0,0, .4);
+	font-size: 20px;
+	margin: 85px 0 45px;
+	font-weight: bold; 
+}
+
+footer a{
+	color: rgba(0,0,0, .4);
+}
+
+.popup{
+	display: none;
+}
